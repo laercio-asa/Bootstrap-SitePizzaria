@@ -9,14 +9,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css"
         integrity="sha512-fw7f+TcMjTb7bpbLJZlP8g2Y4XcCyFZW8uy8HsRZsH/SwbMw0plKHFHr99DN3l04VsYNwvzicUX/6qurvIxbxw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <!-- Barra de navegação -->
-    <nav class="navbar navbar-expand-lg py-0">
+    <nav class="navbar navbar-expand-lg py-0 fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand pt-0 ps-5" href="index.html">
-                <img src="./img/logotipos/logotipo_menu.png" alt="" height="80" >
+                <img src="./img/logotipos/logotipo_menu.png" alt="" height="80">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,6 +61,45 @@
         </div>
     </nav>
 
+    <!-- Carrossel -->
+    <section id="carrossel">
+        <div id="carouselPizzaria" class="carousel slide carousel-dark">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselPizzaria" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselPizzaria" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/banner/banner_marguerita.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1>Melhor escolha<br><span class="texto-vermelho">Marguerita</span></h1>
+                        <p class="d-none d-md-block">Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/banner/banner_calabresa.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Melhor lugar<br><span class="texto-verde">TestaResto</span></h1>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPizzaria" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPizzaria" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <h1>Teste de fonte</h1>
+    <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
     <!-- JS do Bootstrap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/js/bootstrap.min.js"
         integrity="sha512-zKeerWHHuP3ar7kX2WKBSENzb+GJytFSBL6HrR2nPSR1kOX1qjm+oHooQtbDpDBSITgyl7QXZApvDfDWvKjkUw=="
