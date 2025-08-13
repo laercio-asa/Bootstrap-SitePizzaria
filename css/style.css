@@ -2,6 +2,20 @@
     font-family: "Irish Grover", cursive, system-ui !important;
 }
 
+.pizza-menu:hover{
+    background-color: white;
+    box-shadow: var(--bs-box-shadow) !important;
+    /* 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
+}
+
+.img-pizza{
+    filter: grayscale(100%);
+}
+
+.img-pizza:hover{
+    filter: grayscale(0);
+}
+
 .img-h1 {
     height: 2.3rem;
 }
@@ -17,6 +31,13 @@
 .selo {
     bottom: -50px !important;
     left: -50px !important;
+}
+
+
+.pizza-menu:hover{
+    background-color: white!important;
+    box-shadow: var(--bs-box-shadow) !important;
+
 }
 
 @media (max-width:992px) {
