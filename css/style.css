@@ -74,7 +74,7 @@
     right: 12% !important;
     left: 50% !important;
     /* vw = medida que considera a largura disponivel da tela */
-    top: 12vw !important;
+    top: 15vw !important;
     text-align: right !important;
 }
 
