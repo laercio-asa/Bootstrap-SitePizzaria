@@ -69,6 +69,44 @@
     }
 }
 
+
+.carousel-caption {
+    right: 12% !important;
+    left: 50% !important;
+    /* vw = medida que considera a largura disponivel da tela */
+    top: 15vw !important;
+    text-align: right !important;
+}
+
+@media (max-width:992px) {
+    .img-h1 {
+        height: calc(1.35rem + 1.5vw);
+    }
+    .carousel-caption h1 span{
+        font-size: 3rem !important;
+    }
+    .carousel-caption h1 {
+        font-size: 2rem !important;
+    }
+    .carousel-caption p {
+        font-size: 1rem !important;
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .carousel-caption h1 span{
+        font-size: 6vw !important;
+    }
+    .carousel-caption h1 {
+        font-size: 4.5vw !important;
+    }
+    .carousel-caption p {
+        font-size: 1rem !important;
+    }
+}
+
 .carousel-caption h1 {
     font-size: 3rem;
     font-family: "Irish Grover", cursive, system-ui;
